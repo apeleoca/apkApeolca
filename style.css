@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #fbbf24, #111827);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color: #fbbf24;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .btn-download {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #111827;
+    background-color: #fbbf24;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn-download:hover {
+    background-color: #fcd34d;
+    transform: scale(1.05);
+  }
+  .app-logo {
+    display: block;
+    margin: 20px auto ; /* Ajusta el valor superior (20px) según necesites */
+    max-width: 250px; /* Limita el tamaño del logo si es necesario */
+  }
